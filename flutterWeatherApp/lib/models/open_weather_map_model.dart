@@ -13,7 +13,7 @@ The model for the app, handles api request and data.
 
 class OpenWeatherMapModel implements WeatherModel {
   // API key and standard unit.
-  static const String _apiKey = 'a526e6249a3aac513651c1afb4627fb9';
+  static const String _apiKey = 'xxxxxxxxx'; // Add your API key here. Create a free account here: https://openweathermap.org/
   static String _unit = "metric";
 
   // Weather data variables
